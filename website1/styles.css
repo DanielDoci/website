@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    background-color: lightslategrey; 
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+}
+.nav-wrapper{
+    background-color: rgb(214, 252, 253);
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+
+
+.phones2{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(127, 236, 203);
+    color: rgb(141, 16, 16);
+}
+
+
+.laptops{
+    display: flex;
+    justify-content: center;
+    color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

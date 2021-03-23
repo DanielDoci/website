@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head> <title>   Computer & Phone store    </title>  </head>
+
+<body>
+
+
+    <img src="images\iphone 8.jpg" alt="Iphone 8" usemap="#map" width="300" height="200">
+    <img src="images\iphone 8.jpg" alt="Iphone X" usemap="#map" width="300" height="200">
+    <img src="images\iphone 8.jpg" alt="Iphone 11" usemap="#map" width="300" height="200">
+    <img src="images\iphone 8.jpg" alt="Iphone 12" usemap="#map" width="300" height="200">
+
+    <map name="map">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+      </map>
+
+
+<br><br>
+
+    <script>
+         var Iphones =['IPHONE 8','IPHONE X','IPHONE 11','IPHONE 12'];
+
+         function printBtn() {
+             for (var i = 0; i < Iphones.length; i++) {
+                var btn = document.createElement("button");
+                var t = document.createTextNode(Iphones[i]);
+                btn.appendChild(t);
+                document.body.appendChild(btn);
+             }
+         }
+         
+         printBtn();
+
+    </script> 
+    <br><br><br><br>
+    <script>
+           var Samungs =['SAMSUNG S8','SAMSUNG S9','SAMSUNG S10','SAMSUNG S20','SAMSUNG S21'];
+
+           function printBtn() {
+               for (var i = 0; i < Samungs.length; i++) {
+                  var btn = document.createElement("button");
+                  var t = document.createTextNode(Samungs[i]);
+                  btn.appendChild(t);
+                  document.body.appendChild(btn);
+               }
+           }
+           
+           printBtn();
+    
+        </script>
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
